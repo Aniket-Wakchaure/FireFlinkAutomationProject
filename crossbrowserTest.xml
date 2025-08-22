@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="2" parallel="tests" name="Suite">
+
+
+	<test thread-count="2" parallel="tests" name="Test">
+		<parameter name="browser" value="Edge"></parameter>
+		<classes>
+			<class name="ninza.CRMCampaignsTest.CampaignsTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="2" parallel="tests" name="Test2">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="ninza.CRMCampaignsTest.CampaignsTest" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

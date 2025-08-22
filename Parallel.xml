@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test thread-count="2" parallel="tests" name="Test Runner-1">
+    <classes>
+      <class name="ninza.CRMLeadsTest.LeadTest"/>
+    </classes>
+    </test> <!-- Test -->
+    
+     <test thread-count="2" parallel="tests" name="Test Runner-2">
+    <classes>
+      <class name="ninza.CRMLeadsTest.LeadTest"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

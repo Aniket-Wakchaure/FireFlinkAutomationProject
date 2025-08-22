@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicked on DashBoard]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-08-22T10:24:03 IST" name="Default suite" finished-at="2025-08-22T10:24:16 IST" duration-ms="12637">
+    <groups>
+      <group name="SmokeSuit">
+        <method signature="CampaignsTest.createCampaign()[pri:0, instance:ninza.CRMCampaignsTest.CampaignsTest@fbd1f6]" name="createCampaign" class="ninza.CRMCampaignsTest.CampaignsTest"/>
+      </group> <!-- SmokeSuit -->
+    </groups>
+    <test started-at="2025-08-22T10:24:03 IST" name="Default test" finished-at="2025-08-22T10:24:16 IST" duration-ms="12637">
+      <class name="ninza.CRMCampaignsTest.CampaignsTest">
+        <test-method is-config="true" signature="dbconnection()[pri:0, instance:ninza.CRMCampaignsTest.CampaignsTest@fbd1f6]" started-at="2025-08-22T10:24:03 IST" name="dbconnection" finished-at="2025-08-22T10:24:03 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbconnection -->
+        <test-method is-config="true" signature="bcConfiguration()[pri:0, instance:ninza.CRMCampaignsTest.CampaignsTest@fbd1f6]" started-at="2025-08-22T10:24:03 IST" name="bcConfiguration" finished-at="2025-08-22T10:24:07 IST" duration-ms="3456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfiguration -->
+        <test-method is-config="true" signature="login()[pri:0, instance:ninza.CRMCampaignsTest.CampaignsTest@fbd1f6]" started-at="2025-08-22T10:24:07 IST" name="login" finished-at="2025-08-22T10:24:07 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCampaign()[pri:0, instance:ninza.CRMCampaignsTest.CampaignsTest@fbd1f6]" started-at="2025-08-22T10:24:07 IST" name="createCampaign" finished-at="2025-08-22T10:24:08 IST" duration-ms="780" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at ninza.CRMCampaignsTest.CampaignsTest.createCampaign(CampaignsTest.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on DashBoard]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCampaign -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ninza.CRMCampaignsTest.CampaignsTest@fbd1f6]" started-at="2025-08-22T10:24:08 IST" name="logout" finished-at="2025-08-22T10:24:16 IST" duration-ms="7517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="bcClose()[pri:0, instance:ninza.CRMCampaignsTest.CampaignsTest@fbd1f6]" started-at="2025-08-22T10:24:16 IST" name="bcClose" finished-at="2025-08-22T10:24:16 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcClose -->
+        <test-method is-config="true" signature="dbClose()[pri:0, instance:ninza.CRMCampaignsTest.CampaignsTest@fbd1f6]" started-at="2025-08-22T10:24:16 IST" name="dbClose" finished-at="2025-08-22T10:24:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbClose -->
+      </class> <!-- ninza.CRMCampaignsTest.CampaignsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
