@@ -15,6 +15,8 @@ public class LeadTest extends BaseClass {
 	@Test(groups = "SmokeSuit")
 	public void createCampaign() throws EncryptedDocumentException, IOException {
 		DashBoardPage db=new DashBoardPage(wd);
+		
+		
 		db.getCampaigns().click();
 		CampaignsPage cp=new CampaignsPage(wd);
 		cp.createCampaign();
