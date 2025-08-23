@@ -39,7 +39,7 @@ public class AddProductPage {
 
 	public WebElement getAddProduct() {
 		return addProduct;
-	}//kk
+	}
 public void AddProduct(String quantity,String productname, String prise,String productCatogory,String vendor ) {
 	pQuantity.sendKeys(quantity);
 	productName.sendKeys(productname);
