@@ -7,7 +7,7 @@
 </run></groups>
   <test thread-count="5" name="SmokeSuit">
     <classes>
-      <class name="ninza.CRMCampaignsTest.CampaignsTest"/>
+      <class name="ninza.CRMCampaignsTest.Printing"/>
     </classes>
   </test> <!-- SmokeSuit -->
 </suite> <!-- Suite -->
