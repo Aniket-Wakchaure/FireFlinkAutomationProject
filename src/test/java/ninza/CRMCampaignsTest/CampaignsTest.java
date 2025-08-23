@@ -35,7 +35,7 @@ public class CampaignsTest extends BaseClass {
 		String size = fu.readDataFromExcelSheet("sheet1", 34, 5);
 		ccp.fillData(date, name, size);
 		ccp.getCreateCampaignButton().click();
-		;
+		
 
 	}
 
