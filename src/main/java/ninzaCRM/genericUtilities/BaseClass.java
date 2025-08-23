@@ -40,7 +40,7 @@ public class BaseClass {
 		//this is for cross browser just comment it
 		String browser = fu.readDataFromPropertyFile("browser");
 		String URL = fu.readDataFromPropertyFile("url");
-		if(browser.equals("Edge")) {
+		if(browser.equals("edge")) {
 			 wd=new EdgeDriver();
 		 }else if (browser.equals("chrome")) {
 			 wd=new ChromeDriver();
